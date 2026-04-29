@@ -1,6 +1,6 @@
 # HireBridge - Job Portal
 
-A full-stack job listing and application portal built with **Spring**, **MongoDB**, and a hand-crafted **Vanilla JS + Tailwind CSS** frontend. Browse live job postings, search by skill or keyword, filter by experience, and submit applications - all from a clean, responsive UI with dark mode support.
+A full-stack job listing and application portal built with **Spring**, **MongoDB Atlas**, and a hand-crafted **Vanilla JS + Tailwind CSS** frontend. Browse live job postings, search by skill or keyword, filter by experience, and submit applications - all from a clean, responsive UI with dark mode support.
 
 ---
 
@@ -47,7 +47,7 @@ A full-stack job listing and application portal built with **Spring**, **MongoDB
 |---|---|
 | Framework | Spring framework |
 | Language | Java 11 |
-| Database | MongoDB |
+| Database | MongoDB Atlas |
 | ODM | Spring Data MongoDB |
 | Build Tool | Maven |
 
@@ -120,7 +120,7 @@ hirebridge/
 
 - Java 11 or higher
 - Maven 3.6+
-- MongoDB running locally on port `27017`
+- MongoDB Atlas
 - Node.js (only if you want to recompile Tailwind CSS)
 
 ### 1. Clone the repository
